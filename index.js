@@ -160,7 +160,7 @@ function swapMinMax(array) {
     if (array[i] > max) {
         max = array[i];
         maxIndex = i;
-      }
+    }
     // Умова else if перевіряє, чи є поточний елемент масиву меншим за поточне мінімальне значення. Якщо це так, оновлюємо min з поточним елементом масиву та minIndex з поточним індексом.  
     if (array[i] < min) {
       min = array[i];
@@ -223,7 +223,6 @@ function replaceNumbers(arr) {
     } else {
       greaterNumbers[greaterNumbers.length] = "Less than or equal to 10";
     }
-
   }
   return greaterNumbers;
  
